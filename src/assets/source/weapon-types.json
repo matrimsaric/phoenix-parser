@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Photon Cannon Mark I",
+        "code": 308,
+        "damageDone": 90,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Cannon Mark II",
+        "code": 309,
+        "damageDone": 100,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Cannon Mark III",
+        "code": 310,
+        "damageDone": 110,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Cannon Mark IV",
+        "code": 311,
+        "damageDone": 120,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Gun Mark I",
+        "code": 304,
+        "damageDone": 60,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Gun Mark II",
+        "code": 305,
+        "damageDone": 70,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Gun Mark III",
+        "code": 306,
+        "damageDone": 80,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Gun Mark IV",
+        "code": 307,
+        "damageDone": 90,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Battery Mark I",
+        "code": 312,
+        "damageDone": 400,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Battery Mark II",
+        "code": 313,
+        "damageDone": 425,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Battery Mark III",
+        "code": 314,
+        "damageDone": 450,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Photon Battery Mark IV",
+        "code": 315,
+        "damageDone": 475,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    },
+    {
+        "name": "Light Photon Gun IV",
+        "code": 3,
+        "damageDone": 34,
+        "isPhotonic": true,
+        "amount": 1,
+        "accuracy": 100
+    }
+]

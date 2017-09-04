@@ -1,0 +1,23 @@
+<div *ngIf="fleet" >
+  <md-card>
+      <md-card-header>
+          <img md-card-avatar src="{{fleet.affiliationImage}}">
+          <md-card-title>{{fleet.fleetName}}</md-card-title>
+          <md-card-subtitle>Ships Present: {{fleet.fleetCount}} ({{fleet.fleetCountPercent}}%)</md-card-subtitle>
+      </md-card-header>  
+
+      <md-card-content>
+          Total Potential Damage Caused: {{fleet.fleetTotalPotentialDamageDone}} ({{fleet.fleetTotalPotentialDamageDonePercent}}%)<br/>
+          Total Actual Damage Caused: {{fleet.fleetTotalActualDamageDone}} ({{fleet.fleetTotalActualDamageDonePercent}}%)<br/>
+          <br/>
+          Total Potential Damage Received: {{fleet.fleetTotalPotentialDamageReceived}} ({{fleet.fleetTotalPotentialDamageReceivedPercent}}%)<br/>
+          Total Damage Received: {{fleet.fleetTotalActualDamageReceived}} ({{fleet.fleetTotalActualDamageReceivedPercent}}%)<br/>
+          <br/>
+          Ships Destroyed: {{fleet.shipsDestroyed}} ({{fleet.shipsDestroyedPercent}}%)<br/>
+          Extreme Risk: {{fleet.extremeRisk}}, High: {{fleet.highRisk}}, Medium: {{fleet.mediumRisk}}<br/>
+      </md-card-content>    
+  </md-card>
+ 
+  
+
+</div>

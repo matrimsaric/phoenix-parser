@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Heavy Armour Plate mark I",
+        "armourFactors": 80,
+        "burntFactor": 1000
+    },
+    {
+        "name": "Heavy Armour Plate mark II",
+        "armourFactors": 100,
+        "burntFactor": 1250
+    },
+    {
+        "name": "Heavy Armour Plate mark III",
+        "armourFactors": 120,
+        "burntFactor": 1500
+    },
+    {
+        "name": "Heavy Armour Plate mark IV",
+        "armourFactors": 140,
+        "burntFactor": 1750
+    },
+    {
+        "name": "Ablative Armour Plate mark I",
+        "armourFactors": 120,
+        "burntFactor": 150
+    },
+    {
+        "name": "Ablative Armour Plate mark II",
+        "armourFactors": 150,
+        "burntFactor": 190
+    },
+    {
+        "name": "Ablative Armour Plate mark III",
+        "armourFactors": 180,
+        "burntFactor": 225
+    },
+    {
+        "name": "Ablative Armour Plate mark IV",
+        "armourFactors": 210,
+        "burntFactor": 260
+    },
+    {
+        "name": "Light Armour Plate mark I",
+        "armourFactors": 60,
+        "burntFactor": 500
+    },
+    {
+        "name": "Light Armour Plate mark II",
+        "armourFactors": 70,
+        "burntFactor": 600
+    },
+    {
+        "name": "Light Armour Plate mark III",
+        "armourFactors": 80,
+        "burntFactor": 700
+    },
+    {
+        "name": "Light Armour Plate mark IV",
+        "armourFactors": 90,
+        "burntFactor": 800
+    }
+]

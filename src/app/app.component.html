@@ -1,0 +1,41 @@
+<!--Navigation bar-->
+<div id="topbar">
+  <nav id="navbar" >
+      <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul id="overrideback" class="nav navbar-nav navbar-left">
+                  <li id="overrideback" class="dropdown">
+                      <a  id="overrideback" data-toggle="dropdown" role="button" aria-haspopup="true"  style="height: 55px; color:#4da6ff" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" style="height: 55px; color:#4da6ff"></span>
+                          <span class="caret"></span></a>
+                          <ul id="overrideback" class="dropdown-menu">
+                              <li><a routerLink="/home" id="overrideback" routerLinkActive="active">Home</a></li> 
+                              <li role="separator" class="divider" ></li>
+                               <li><a routerLink="/dataentry"  id="overrideback"  routerLinkActive="active">Enter Summary</a></li>
+                               <li role="separator" class="divider" ></li>
+                               <li><a routerLink="/fleetreports" id="overrideback" routerLinkActive="active">View Reports</a></li>
+                               <li><a routerLink="/gridreports" id="overrideback" routerLinkActive="active">View Grid Reports</a></li>
+                               <li><a routerLink="/overviewreports" id="overrideback" routerLinkActive="active">View Fleet Overview</a></li>
+                               <li role="separator" class="divider" ></li>
+                               <li><a routerLink="/goldfish" id="overrideback" routerLinkActive="active">Test Capability</a></li>
+                          </ul>
+                  </li>
+              </ul>
+             
+          </div>
+          
+          <!-- Collect the nav links, forms, and other content for toggling -->
+      </div><!-- /.container-fluid -->
+  </nav>
+  </div>
+  <!-- End Naviagation bar-->
+  
+  <!-- Angular Application will reside inside here-->
+  <div id="primarydisplayarea">
+  <router-outlet></router-outlet>
+  </div>
+  
+  
+
+  
+  
+  

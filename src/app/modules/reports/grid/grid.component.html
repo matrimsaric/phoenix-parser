@@ -1,0 +1,31 @@
+<div>
+  <br/><br/>
+  <div>
+       <button name="own" (click)="changeViewedFleet('own')">Own Forces</button>
+       <button name="allied" (click)="changeViewedFleet('allied')" >Allied Forces</button>
+       <button name="hostile" (click)="changeViewedFleet('hostile')" >Hostile Forces</button>
+       <button name="dialog" (click)="openShipDetail()" >Dialog</button>
+  </div><br/>
+</div>
+<ag-grid-angular id="leftgrid" #agGrid style="height: 90%; width:98%" class="ag-fresh"
+           [gridOptions]="gridOptions" 
+          [columnDefs]="columnDefs" 
+          [showToolPanel]="showToolPanel" 
+          [rowData]="displayedFleet" 
+          enableColResize 
+          enableSorting 
+          enableRangeSelection:false
+          enableFilter  
+          groupUseEntireRow
+          externalRowSelection:true
+          suppressRowClickSelection:false 
+          toolPanelSuppressGroups:true
+          toolPanelSuppressValues 
+          debug 
+          rowHeight="22" 
+          (cellDoubleClicked)="openShipDetail($event)"
+          (cellClicked)="alert2($event)"
+          rowSelection='single'> 
+</ag-grid-angular> 
+
+<modal></modal>

@@ -1,0 +1,16 @@
+<div>
+  <br/>
+  <md-input-container>
+<input mdInput  #data placeholder="Enter summary Battle report" style="width:600px;" value="{{battlereport}}" ><
+</md-input-container>
+<textarea #data style="width:600px; height:400px;"></textarea>
+<br/><br/>
+<button type="button" class="btn btn-primary"  aria-label="Expand" (click)="loadData(data)">
+  <span class="glyphicon glyphicon-ok" aria-hidden="true">Analyse</span>
+</button>
+<button type="button" class="btn btn-primary"  aria-label="Expand" (click)="clearData()">
+  <span class="glyphicon glyphicon-erase" aria-hidden="true">Clear</span>
+</button>
+
+<br/>
+</div>

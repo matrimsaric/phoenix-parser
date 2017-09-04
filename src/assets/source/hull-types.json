@@ -1,0 +1,31 @@
+[
+    {
+        "name": "200 Hulls",
+        "plates": "317"
+    },
+    {
+        "name": "150 Hulls",
+        "plates": "262"
+    },
+    {
+        "name": "100 Hulls",
+        "plates": "200"
+    },
+    {
+        "name": "75 Hulls",
+        "plates": "165"
+    },
+    {
+        "name": "50 Hulls",
+        "plates": "126"
+    },
+    {
+        "name": "300 Hulls",
+        "plates": "415"
+    },
+    {
+        "name": "400 Hulls",
+        "plates": "503"
+    }
+
+]

@@ -1,0 +1,28 @@
+<div *ngIf="ship" >
+  <md-card>
+      <md-card-header>
+          <img md-card-avatar src="{{ship.getAffiliationImage()}}">
+          <md-card-title>{{ship.name}} ({{ship.id}})</md-card-title>
+          <md-card-subtitle>{{ship.class}}</md-card-subtitle>
+      </md-card-header>  
+      <img md-card-md-image *ngIf="showDestroyed" src="{{backer}}">
+      <md-card-content>
+           Armour: {{ship.currentArmour}} <br/>
+           Scints: {{ship.currentScints}} Shields: {{ship.currentShields}}({{ship.currentShieldDepth}})<br/>
+           Hull Damage: {{ship.currentHullDamage}}% <br/><br/>
+           Protection Factor: {{ship.shipProtectionFactor}}%<br/>
+           Photon Battery IV Vulnerability: {{ship.getDamageSoaksPercentage(475)}} <br/>
+           Photon Cannon IV Vulnerability: {{ship.getDamageSoaksPercentage(120) }}<br/><br/>
+           Damage Generated: {{ship.actualDamageGeneratedTotal }} caused from a potential {{ship.actualPotentialDamageGenerated }}<br/>
+           Offensive Effectiveness: {{ship.shipOffensivePotential }} %<br/>
+           Damage Received: {{ship.actualDamageReceivedTotal}} received from a potential {{ship.actualPotentalDamageReceivedTotal }} <br/>
+           Damage Vulnerability: {{ship.shipDefensiveWeakness}} %<br />
+      </md-card-content>    
+  </md-card>
+ 
+  <br/><br/><br/>
+  <div>
+      <label style="font-size: smaller">copyright © 2016 Joss Attridge.</label><br/><br/>
+  </div>
+
+</div>
